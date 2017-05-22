@@ -5,10 +5,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class SampleConfig {
 	@Autowired
-	Sample sampleImplCopy;
+	Sample sampleImpl;
 	
-	public void Tester(){
-		sampleImplCopy.disp();
+	public String Tester(){
+		return sampleImpl.disp();
 	}
 
 }

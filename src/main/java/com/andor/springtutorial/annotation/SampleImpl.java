@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 public class SampleImpl implements Sample{
 
 	@Override
-	public void disp() {
-		System.out.println("SampleImpl");
+	public String disp() {
+		return "SampleImpl";
 	}
 	
 	
